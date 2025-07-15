@@ -1214,4 +1214,39 @@ footer nav {
   .input{
     width: 95%;
   }
+  #two {
+  animation: skill linear;
+  animation-timeline: view();
+  animation-range: entry 30%;
+}
+.box {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 12px #00ffff;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+  margin-left: 29px;
+  animation: skill linear;
+  animation-timeline: view();
+  animation-range: entry 30%;
+}
+.skills-box {
+  background-color: #191b1b;
+  width: 280px;
+  height: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 7px 1px #00ffff;
+  transition: transform 0.3s ease;
+  margin-left: 29px;
+  animation: skill linear;
+  animation-timeline: view();
+  animation-range: entry 30%;
+}
+.skills-box img {
+  width: 100px;
+  margin: 10px 10px 10px 75px;
+  padding: 5px;
+}
 }
