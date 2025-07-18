@@ -41,7 +41,7 @@ two.addEventListener("click", function () {
 });
 
 three.addEventListener("click", function () {
-  window.open("https://github.com/Sundhar-1/Todo-list", "_blank");
+  window.open("https://github.com/Sundhar-1/todolist", "_blank");
 });
 
 four.addEventListener("click", function () {
@@ -165,5 +165,5 @@ document.getElementById("l-2").addEventListener("click", function () {
 });
 
 document.getElementById("l-3").addEventListener("click", function () {
-  window.open("https://advaceto-dolist.netlify.app/", "_blank");
+  window.open("https://sundhar-1.github.io/todolist/", "_blank");
 });
