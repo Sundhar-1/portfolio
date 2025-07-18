@@ -752,11 +752,12 @@ h3 {
   animation-range: entry 0%;
 }
 .project {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  margin-left: 80px;
   justify-content: center;
   align-items: center;
 }
@@ -838,6 +839,9 @@ h3 {
   .p-content p {
     margin: 0 20px;
     font-size: 13px;
+  }
+  .project{
+    margin-left: 20px;
   }
 }
 @media (max-width: 1375px) {
@@ -934,7 +938,7 @@ form input{
   font-weight: 450;
 }
 .contact-content {
-  margin: 70px 0px 50px 20px;
+  margin: 70px 0px 50px 70px;
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 10%;
