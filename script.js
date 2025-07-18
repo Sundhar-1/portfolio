@@ -155,3 +155,15 @@ document.querySelector(".dismiss").addEventListener("click", function () {
 document.getElementById("ok").addEventListener("click", function () {
   document.getElementById("overlay").style.display = "none";
 });
+
+document.getElementById("l-1").addEventListener("click", function () {
+  window.open("https://sundharesan.netlify.app/", "_blank");
+});
+
+document.getElementById("l-2").addEventListener("click", function () {
+  window.open("https://study-flow1.netlify.app/", "_blank");
+});
+
+document.getElementById("l-3").addEventListener("click", function () {
+  window.open("https://advaceto-dolist.netlify.app/", "_blank");
+});

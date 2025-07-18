@@ -796,8 +796,24 @@ h3 {
   transform: translateY(0px);
 }
 .p-content svg {
-  width: 50px;
-  height: 50px;
+  width: 42px;
+  height: 42px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #010614;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.p-content .link {
+  width: 42px;
+  height: 42px;
   margin: 10px;
   padding: 10px;
   background-color: #010614;
@@ -805,6 +821,9 @@ h3 {
   cursor: pointer;
 }
 .p-content svg:hover {
+  box-shadow: 0 1px 7px 3px #00ffff;
+}
+.p-content .link:hover {
   box-shadow: 0 1px 7px 3px #00ffff;
 }
 @media (max-width: 365px){
@@ -831,6 +850,15 @@ h3 {
     border-radius: 50%;
     cursor: pointer;
   }
+  .p-content .link {
+  width: 29px;
+  height: 29px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #010614;
+  border-radius: 50%;
+  cursor: pointer;
+}
   .p-content h1 {
     font-size: 20px;
     color: #00ffff;
