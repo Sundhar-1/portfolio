@@ -1209,6 +1209,12 @@ footer nav {
   .contact-content h3{
     width: 20px;
   }
+  .contact-content {
+  margin: 70px 0px 50px 20px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 10%;
+}
   #six h2 {
     margin-top: 10px;
   }
