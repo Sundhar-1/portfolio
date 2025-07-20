@@ -928,7 +928,7 @@ h3 {
 
 form input,
 textarea {
-  width: 80%;
+  width: 500px;
   padding: 10px;
   border-radius: 5px;
   border: 2px solid #00ffff;
@@ -1020,6 +1020,16 @@ form input{
   animation: service linear;
   animation-timeline: view();
   animation-range: entry 10%;
+}
+form input:focus{
+  border: 2px solid #00ffff;
+  background-color: none;
+  box-shadow: 0 1px 10px 2px #00ffff;
+}
+textarea:focus{
+  border: 2px solid #00ffff;
+  background-color: none;
+  box-shadow: 0 1px 10px 2px #00ffff;
 }
 
 @media (max-width: 1187px) {
@@ -1233,12 +1243,12 @@ footer nav {
   height: 12%;
 }
 }
-@media (max-width: 365px){
+@media (max-width: 370px){
   .contact-content h3{
     width: 20px;
   }
   .contact-content {
-  margin: 70px 0px 50px 20px;
+  margin: 70px 0px 0px 20px;
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 10%;
@@ -1250,7 +1260,7 @@ footer nav {
     margin-top: 600px;
   }
   .input{
-    width: 95%;
+    width: 600px;
   }
   #two {
   animation: skill linear;
