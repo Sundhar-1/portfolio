@@ -1291,3 +1291,7 @@ footer nav {
   height: 220px;
 }
 }
+
+#name,#email{
+  color: white;
+}
