@@ -1243,7 +1243,7 @@ footer nav {
   height: 12%;
 }
 }
-@media (max-width: 370px){
+@media (max-width: 367px){
   .contact-content h3{
     width: 20px;
   }
@@ -1260,7 +1260,7 @@ footer nav {
     margin-top: 600px;
   }
   .input{
-    width: 220px;
+    width: 120px;
   }
   #two {
   animation: skill linear;
