@@ -1092,7 +1092,7 @@ footer svg:hover {
 }
 @media (max-width: 658px) {
   footer svg {
-    width: 50px;
+    width: 30px;
     height: auto;
     display: block;
   }
