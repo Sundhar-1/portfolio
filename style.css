@@ -928,7 +928,7 @@ h3 {
 
 form input,
 textarea {
-  width: 300px;
+  width: 500px;
   padding: 10px;
   border-radius: 5px;
   border: 2px solid #00ffff;
@@ -1247,6 +1247,17 @@ footer nav {
   .contact-content h3{
     width: 20px;
   }
+  form input,
+textarea {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #00ffff;
+  outline: none;
+  margin-bottom: 20px;
+  background: transparent;
+  color: white;
+}
   .contact-content {
   margin: 70px 0px 0px 20px;
   animation: appear linear;
