@@ -167,3 +167,6 @@ document.getElementById("l-2").addEventListener("click", function () {
 document.getElementById("l-3").addEventListener("click", function () {
   window.open("https://sundhar-1.github.io/todolist/", "_blank");
 });
+document.getElementById("l-0").addEventListener("click", function () {
+  window.open("https://sundhar-1.github.io/quiz-app/", "_blank");
+});
