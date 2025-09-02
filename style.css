@@ -1373,6 +1373,8 @@ textarea {
 .todo{
   height: 220px;
 }
+#toped p{
+  width: 250px;
 }
 
 #name,#email{
