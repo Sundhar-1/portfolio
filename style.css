@@ -583,6 +583,23 @@ h3 {
   }
 }
 
+.btn-more{
+  background-color: #00ffff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+.btn-more:hover {
+  filter: drop-shadow(1px 1px 1px #00ffffff);
+  box-shadow: 0 1px 2px 2px #00ffff;
+}
+
+
 /* skills */
 
 
@@ -1307,7 +1324,7 @@ footer nav {
 }
 @media (max-width: 367px){
   #toped .profile-content p{
-    width: 250px;
+    width: 280px;
   }
   .contact-content h3{
     width: 20px;
@@ -1420,4 +1437,8 @@ textarea {
 }
 #toped p{
   width: 600px;
+}
+#six .contact-content a{
+  text-decoration: none;
+  color: white;
 }
