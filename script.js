@@ -1,5 +1,5 @@
 var t2yped = new Typed(".me", {
-  strings: ["Frontend Developer", "UI/UX Designer", "web Developer"],
+  strings: ["Fullstack Developer","MERN Stack developer", "UI/UX Designer", "web Developer"],
   typeSpeed: 150,
   backSpeed: 150,
   loop: true,
@@ -41,7 +41,7 @@ two.addEventListener("click", function () {
 });
 
 three.addEventListener("click", function () {
-  window.open("https://github.com/Sundhar-1/todolist", "_blank");
+  window.open("https://github.com/Sundhar-1/E-commerse-MERN-Stack", "_blank");
 });
 
 four.addEventListener("click", function () {
@@ -60,7 +60,7 @@ five.addEventListener("click", function () {
 
 six.addEventListener("click", function () {
   window.open(
-    "https://https://www.figma.com/design/rguAcRMCufUKvX80PpJb48/Untitled?node-id=76-79&t=3LKRvoiuVC1grK4u-1",
+    "https://github.com/Sundhar-1/quiz-app",
     "_blank"
   );
 });
@@ -103,7 +103,7 @@ c1.innerText =
 
 let c2 = document.getElementById("c-3");
 c2.innerText =
-  "Advanced Todo-List. Built a book create task web with features like add/delete/mark complete. Used localStorage for data persistence, and form validation in JS. Form validation checking and navbar toggle bar using Javascript (DOM).";
+  "Developed a full-stack(MERN) E-Commerce platform with product listing, cart management, and user authentication.Implemented RESTful APIs for CRUD operations and integrated MongoDB for efficient data storage.";
 
 let c3 = document.getElementById("c-4");
 c3.innerText =
@@ -115,7 +115,7 @@ c4.innerText =
 
 let c5 = document.getElementById("c-6");
 c5.innerText =
-  "Designed a map app UI/UX in Figma. Focused on user-friendly navigation and visually appealing layout. Created interactive prototypes for user testing.";
+  " Built a JavaScript Quiz App with a countdown timer, real-time score calculation, and instant correctness feedback.";
 
 // Function to send email using EmailJS
 
@@ -165,8 +165,8 @@ document.getElementById("l-2").addEventListener("click", function () {
 });
 
 document.getElementById("l-3").addEventListener("click", function () {
-  window.open("https://sundhar-1.github.io/todolist/", "_blank");
+  window.open("https://github.com/Sundhar-1/E-commerse-MERN-Stack", "_blank");
 });
-document.getElementById("l-0").addEventListener("click", function () {
-  window.open("https://sundhar-1.github.io/quiz-app/", "_blank");
+document.getElementById("01").addEventListener("click", function () {
+  window.open("https://jquizeapps.netlify.app/", "_blank");
 });
