@@ -29,8 +29,10 @@ var one = document.getElementById("btn-one");
 var two = document.getElementById("btn-two");
 var three = document.getElementById("btn-3");
 var four = document.getElementById("btn-4");
-var five = document.getElementById("btn-5");
 var six = document.getElementById("btn-6");
+var nine = document.getElementById("btn-9").addEventListener("click",()=>{
+  window.open("https://github.com/Sundhar-1/M.Market","_blank")
+})
 
 one.addEventListener("click", function () {
   window.open("https://github.com/Sundhar-1/portfolio", "_blank");
@@ -51,12 +53,6 @@ four.addEventListener("click", function () {
   );
 });
 
-five.addEventListener("click", function () {
-  window.open(
-    "https://www.figma.com/design/nlqXgq6trnh58dJYWvSgYF/Untitled?node-id=0-1&t=pm3MCq696wS9Uq1y-1",
-    "_blank"
-  );
-});
 
 six.addEventListener("click", function () {
   window.open(
@@ -109,14 +105,13 @@ let c3 = document.getElementById("c-4");
 c3.innerText =
   "Designed a travel app UI/UX in Figma. Focused on user-friendly navigation and visually appealing layout. Created interactive prototypes for user testing.";
 
-let c4 = document.getElementById("c-5");
-c4.innerText =
-  "Created a Figma design for a study app. Focused on user-friendly interface and intuitive navigation. Developed interactive prototypes for user testing.";
 
 let c5 = document.getElementById("c-6");
 c5.innerText =
   " Built a JavaScript Quiz App with a countdown timer, real-time score calculation, and instant correctness feedback.";
 
+  let c9 = document.getElementById("c-9");
+  c9.innerText= "API and Data Management: Developed RESTful APIs using Node.js/Express.js to handle product, order, and user data, persisting all information in MongoDB."
 // Function to send email using EmailJS
 
 emailjs.init("qkzmhKC6otSO9tfQK"); // Replace with your EmailJS public key
@@ -170,3 +165,7 @@ document.getElementById("l-3").addEventListener("click", function () {
 document.getElementById("01").addEventListener("click", function () {
   window.open("https://jquizeapps.netlify.app/", "_blank");
 });
+
+document.getElementById("l-9").addEventListener("click", ()=>{
+  window.open("https://sundhar-1-m-mart-app-1.onrender.com/", "_blank")
+})
